@@ -48,7 +48,7 @@ public class TestYourSetup {
 	
 	@AfterMethod
 	public void closeDriver() {
-		
+		driver.quit();
 	}
 
 }
