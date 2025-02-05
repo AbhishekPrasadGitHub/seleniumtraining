@@ -14,6 +14,8 @@ import org.testng.annotations.Test;
 
 public class TestTemplate {
 
+	//Added a comment before staging
+	//Added a comment after staging
 	WebDriver driver;
 
 	@Test
