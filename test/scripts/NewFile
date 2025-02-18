@@ -1,1 +1,70 @@
-This is to test pull request
+Selenium Assignment:
+
+25th Jan:
+0. Go through "Pre-reading material for Selenium" recording and assignment in "Self-paced learning" training.
+1. Go through concenpt of Cookies and try out all the cookie related methods in Selenium
+which are available in driver.manage().
+2. Try out all the navigate methods
+3. Try out all the windows position and size related methods
+4. Make your browser full screen, minimize and maximize
+5. Complete all the XPath and CSS assignments
+
+1. Go to url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2. Type Username and password
+3. Click on Login button
+4. After login verify that login was successful
+
+7. Revise the concept of ArrayList and also understand what is generics in Java
+
+ 
+a. go to wikipedia.org
+b. Click on English Link
+c. Type "Selenium" in search field
+d. Click on search button
+e. Verify whether the title is "Selenium - Wikipedia"
+f. Check if heading is "Selenium"
+
+
+9. Visit - https://demoqa.com/automation-practice-form
+Enter all the data asked - upto Hobbies checkbox 
+
+26th Jan:
+Wait Assignments
+Assignments1
+1. In Orange HRM Login assignment you had to put Thread.sleep after doing driver.get().
+a. Use Implicit Wait to see if it is working fine without Thread.sleep
+
+
+Dropdown Assignments:
+2. Goto https://demoqa.com/automation-practice-form, and do data entry -
+	Verify that city dropdown is disabled. 
+3. Got to https://the-internet.herokuapp.com/dropdown
+ And select option 1 from dropdown
+ And then select option 2 from dropdown
+ 
+ 
+4:
+1. Go to https://www.goibibo.com/
+2. Close the Login box if it appears
+3. In From - type - Ben
+4. Select Bengaluru from the list
+
+5.:
+1. Go to https://www.goibibo.com/
+2. Book air tickets from 4th April till 8th Apr from Pune to Delhi
+for 2 adults on business class 
+
+1st Feb: Explicit Wait assignment:
+Assignments 1
+2. Study all the conditions available in ExpectedConditions class from the below link:
+https://github.com/SeleniumHQ/selenium/blob/trunk/java/src/org/openqa/selenium/support/ui/ExpectedConditions.java
+
+Assignments 2
+3. What is StaleElementReferenceException in Selenium - google, ChatGPT or Stackoverflow
+
+Assignments 3
+4. All the assignments done so far, wherever you have used Thread.sleep() 
+    or implicit wait, replace it with explicit wait    
+    
+From now onwards only use Explicit Wait in your future tests, no Thread.sleep() and no Implicit wait.
+
